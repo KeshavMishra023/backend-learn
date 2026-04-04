@@ -48,7 +48,7 @@ import { app } from "./app.js";
 import dbConnection from "./db/index.js";
 
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 });
 
 dbConnection()
